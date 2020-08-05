@@ -74,16 +74,6 @@ public class MainActivity extends AppCompatActivity {
                         ItemTouchHelper.DOWN | ItemTouchHelper.UP, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT)  {
                     @Override
                     public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
-//                        int from=viewHolder.getAdapterPosition();
-//                        int to=target.getAdapterPosition();
-////                        String t1=getString(from);
-////                        String t2=getString(to);
-//                        Word word1 = adapter.getWordAtPosition(from);
-//                        Word word2 = adapter.getWordAtPosition(to);
-//                        Toast.makeText(MainActivity.this, "Updating " +
-//                                word1.getWord(), Toast.LENGTH_LONG).show();
-//                        mWordViewModel.swapWord(word1.getWord(),word2.getWord());
-//                        return true;
                         return false;
                     }
 

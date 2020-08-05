@@ -70,19 +70,6 @@ public class WordRepository {
             return null;
         }
     }
-//    private static class swapWordAsyncTask extends AsyncTask<String,String,Void> {
-//        private com.example.thingstodo.WordDao mAsyncTaskDao;
-//
-//        swapWordAsyncTask(com.example.thingstodo.WordDao dao) {
-//            mAsyncTaskDao = dao;
-//        }
-//
-//        @Override
-//        protected Void doInBackground(final String... params) {
-//            mAsyncTaskDao.swapWord(params[0],params[1]);
-//            return null;
-//        }
-//    }
     public void deleteAll()  {
         new deleteAllWordsAsyncTask(mWordDao).execute();
     }

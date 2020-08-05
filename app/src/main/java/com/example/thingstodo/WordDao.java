@@ -23,10 +23,11 @@ public interface WordDao {
 
     @Query("SELECT * from word_table ORDER BY word ASC")
     LiveData<List<Word>> getAllWords();
+
     @Query("SELECT * from word_table LIMIT 1")
     Word[] getAnyWord();
+
     @Delete
     void deleteWord(Word word);
-//    @Query("UPDATE word_table SET word = case when word = :word1 then :word2 else :word1 end WHERE word in (:word1,:word2)")
-//    void swapWord(String word1,String word2);
+
 }
