@@ -1,7 +1,6 @@
 # Things-To-Do
 Things-To-Do is an Android application which helps user to manage their day to day task by creating a modifiable worklist. 
-This Application uses Android Architecture Components to manage UI and database that helps user in managing day to
-day task by creating a modifiable worklist.
+This Application uses Android Architecture Components for managing UI and handling data persistence. 
 
 # Android Architecture Components
 ![](https://cdn-images-1.medium.com/max/800/1*WVdFMYmEoCdXniy7ulDe5g.png)
