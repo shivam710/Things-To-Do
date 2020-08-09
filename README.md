@@ -1,5 +1,5 @@
 # Things-To-Do
-Things-To-Do is an Android application which helps user to manage their day to day task by creating a modifiable worklist.<br /> 
+Things-To-Do is an Android application which helps users to manage their day to day task by creating a modifiable worklist.<br /> 
 The Application uses Android Architecture Components for managing UI and handling data persistence. <br/>
 The project was developed with Android Studio for Android app dev and SQLite as database.
 
